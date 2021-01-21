@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(rgb(97, 97, 97), rgb(42, 42, 42));
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+}
+.inputClass{
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#noteContent{
+    width:205px;
+    height: 100px;
+    margin-top: 10px;
+}
+#noteAdd{
+margin-left: 0px;
+}
+.note{
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    border: 2px solid white;
+    color: white;
+    position: relative;
+    float: left; 
+    padding: 20px;
+}
+.notePinned{
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    border: 2px solid red;
+    color: white;
+    position: relative;
+    float: left; 
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 20px;
+}
+h4{
+    position: absolute;
+    bottom: 0;
+    color: rgb(179, 179, 179);
+}
+p{
+    height: 190px;
+    width: 250px;
+    word-wrap: break-word;
+}
+.closeButton{
+    float: right;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
